@@ -14,7 +14,4 @@ keys(defaultMessages).forEach(key => {
   }
 });
 
-console.log('MOOOOOOO');
-console.log(messages);
-
 export default messages;
