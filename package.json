@@ -1,6 +1,6 @@
 {
   "name": "ember-intl-changeset-validations",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "ember-intl support for ember-changeset-validations messages",
   "keywords": [
     "ember-addon",
