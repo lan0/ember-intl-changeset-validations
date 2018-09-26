@@ -1,7 +1,7 @@
 ember-intl-changeset-validations
 ==============================================================================
 
-[Short description of the addon.]
+Big thanks to [ember-i18n-changeset-validations](https://github.com/mirai-audio/ember-i18n-changeset-validations) that showed me 90% of the how-to needed to make this work.
 
 Installation
 ------------------------------------------------------------------------------
