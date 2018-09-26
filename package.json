@@ -1,13 +1,21 @@
 {
   "name": "ember-intl-changeset-validations",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "ember-intl support for ember-changeset-validations messages",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-validation",
+    "ember-changeset",
+    "ember-changeset-validations",
+    "ember-i18n",
+    "ember-intl",
+    "i18n",
+    "intl",
+    "validation"
   ],
-  "repository": "",
+  "repository": "https://gitlab.com/michal.bryxi/ember-intl-changeset-validations",
   "license": "MIT",
-  "author": "",
+  "author": "Michal Bryxí (https://www.pudr.com)",
   "directories": {
     "doc": "doc",
     "test": "tests"
