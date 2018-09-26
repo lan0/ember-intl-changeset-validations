@@ -1,0 +1,6 @@
+validations:
+  present:  "Pole musí být vyplněné"
+  between: 'musí mít mezi {min} a max znaky'
+  invalid: 'je něco jako {min}'
+
+
