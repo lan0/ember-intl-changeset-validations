@@ -1,4 +1,0 @@
-validations:
-  between: 'Musí mít mezi {min} a {max} znaky'
-  url: 'Neplatne URL'
-  blank: 'Prazdné'
