@@ -1,13 +1,11 @@
-<h2 id="title">Welcome to Ember</h2>
-
-<p>These are the raw translations as defined in the "cs" locale.</p>
+<h2 id="title">{{t "Welcome to Ember"}}</h2>
+<p>{{t "These are the raw translations as defined in the \"cs\" locale."}}</p>
 <ol>
   {{!-- <li>validations.between: <code>{{t "validations.between"}}</code></li> --}}
-  <li>validations.blank: <code>{{t "validations.blank"}}</code></li>
-  <li>validations.url: <code>{{t "validations.url"}}</code></li>
+  <li>{{t "validations.blank:"}} <code>{{t "validations.blank"}}</code></li>
+  <li>{{t "validations.url:"}} <code>{{t "validations.url"}}</code></li>
 </ol>
-
-<p>Changeset validations (the changeset has 2 url errors)</p>
+<p>{{t "Changeset validations (the changeset has 2 url errors)"}}</p>
 <ul class="ma-ErrorsHandler-errors">
   {{#each (get model "error.title.validation") as |errorKey|}}
     <li data-test="title-error" class="help is-danger ma-ErrorsHandler-error">
@@ -20,5 +18,4 @@
     </li>
   {{/each}}
 </ul>
-
 {{outlet}}
