@@ -1,9 +1,0 @@
-include:
-  - template: Auto-DevOps.gitlab-ci.yml
-
-test:
-  script:
-    - setup_test_db
-    - cp -R . /tmp/app
-    - /bin/herokuish buildpack install https://github.com/heroku/heroku-buildpack-google-chrome
-    - /bin/herokuish buildpack test
