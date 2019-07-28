@@ -3,9 +3,6 @@
     "test": {
       "buildpacks": [
         {
-          "url": "https://github.com/MichalBryxi/heroku-buildpack-google-chrome.git#test"
-        },
-        {
           "url": "heroku/nodejs"
         }
       ]
