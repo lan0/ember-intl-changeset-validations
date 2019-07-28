@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [v1.0.0] - 2019-07-28
+### Changed
+- Bump `ember-intl` and `ember-changeset-validations` versions
+- Bump this package version to signify that things might change with this big jump
+
 ## [v0.1.4] - 2018-11-25
 ### Removed
 - Remove ember-data as a dependency
