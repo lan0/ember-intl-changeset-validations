@@ -73,7 +73,7 @@ test:
   script:
     - setup_test_db
     - cp -R . /tmp/app
-    - /bin/herokuish buildpack compile
+    - /bin/herokuish buildpack test
   only:
     - branches
 
