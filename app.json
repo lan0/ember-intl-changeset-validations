@@ -9,6 +9,9 @@
           "url": "heroku/nodejs"
         }
       ]
+    },
+    "scripts": {
+      "test": "npm test"
     }
   }
 }
