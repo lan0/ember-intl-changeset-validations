@@ -4,6 +4,7 @@ ember-intl-changeset-validations
 Adds support for ember-intl to ember-changeset-validations.
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md)
+[![Ember Observer Score](https://emberobserver.com/badges/ember-intl-changeset-validations.svg)](https://emberobserver.com/addons/ember-intl-changeset-validations)
 
 ------------------------------------------------------------------------------
 
