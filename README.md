@@ -1,11 +1,14 @@
 ember-intl-changeset-validations
 ==============================================================================
 
+Adds support for ember-intl to ember-changeset-validations.
+
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md)
 
 ------------------------------------------------------------------------------
 
 Big thanks to [ember-i18n-changeset-validations](https://github.com/mirai-audio/ember-i18n-changeset-validations) that showed me 90% of the how-to needed to make this work.
+
 
 Installation
 ------------------------------------------------------------------------------
@@ -14,12 +17,29 @@ Installation
 ember install ember-intl-changeset-validations
 ```
 
-
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+Create a file with translations: `/translations/validations/cs.json`:
 
+```json
+{
+  "validations": {
+    "inclusion": "Musí být vybráno",
+    "present": "Prosím vyplňte",
+    "between": "Musí mít mezi {min} a {max} znaky",
+    "invalid": "Neplatný formát",
+    "email": "Nplatná e-mailová adresa"
+  }
+}
+```
+
+All the validation messages should be now translated.
+
+Thanks
+------------------------------------------------------------------------------
+
+Big thanks to [ember-i18n-changeset-validations](https://github.com/mirai-audio/ember-i18n-changeset-validations) that showed me 90% of the how-to needed to make this work.
 
 License
 ------------------------------------------------------------------------------
