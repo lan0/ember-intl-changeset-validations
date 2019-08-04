@@ -25,3 +25,10 @@ Contributing
 * Visit the dummy application at [http://localhost:4200](http://localhost:4200).
 
 For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+
+### GitLab configuration
+
+This app leverages GitLab autodevops feature, which unfortunatelly does not have ability to run multiple buildpacks at the moment. So I created a meld of `node` and `chrome` buildpacks to make it work seamlessly. So this repo needs following in `Settings -> CI/CD -> Variables`:
+
+ - BUILDPACK_URL: https://github.com/MichalBryxi/heroku-buildpack-nodejs.git#import-heroku-buildpack-google-chrome
+ - DAST_DISABLED: true
