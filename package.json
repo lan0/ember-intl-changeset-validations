@@ -13,7 +13,7 @@
     "intl",
     "validation"
   ],
-  "repository": "https://gitlab.com/michal.bryxi/ember-intl-changeset-validations",
+  "repository": "https://gitlab.com/michal.bryxi/ember-intl-changeset-validations.git",
   "license": "MIT",
   "author": "Michal Bryxí (https://www.pudr.com)",
   "directories": {
