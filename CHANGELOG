@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [v2.0.0] - 2020-07-19
+### Changed
+**BREAKING**: Bumped version of ember-intl
+**BREAKING**: Bumped version of ember-changeset-validations
+**BREAKING**: Changed the code that extracts messages from JSON file, which _needs_ to be accompanied with `ember-changeset-validations >= v3.x` and `ember-intl >= v5.x`.
+
 ## [v1.0.0] - 2019-07-28
 ### Changed
 - Bump `ember-intl` and `ember-changeset-validations` versions
